@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body, .sentenceInput {
+  font-family:'Courier New', Courier, monospace;
+  border-radius: .2rem;
+  justify-content: center;
+  height: 6rem;
+  width: 98%;
+  margin: auto;
+  resize: none;
+  padding: .5rem 1rem;
+}
+
+.container1{
+  max-width: 95%;
+  width: 700px;
+  padding: 3rem;
+}
+
+.letter-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.CPM{
+  position: absolute;
+  top: 2rem;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#countdown1{
+  position: absolute;
+  top: 2rem;
+  padding: 3rem;
+  font-family:'Courier New', Courier, monospace;
+}
+
+button#replayBtn{
+  margin: 0;
+  position: absolute;
+}
+
+#sentenceDisplay1{
+  font-family:'Courier New', Courier, monospace;
+}
